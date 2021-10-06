@@ -10,16 +10,16 @@ def union(arr1, arr2):
             j += 1
         else:
             res.append(arr1[i])
-            res.append(arr2[j])
+            '''res.append(arr2[j]) #It is repeating 5 twice '''
             i += 1
             j += 1
 
-    while i < len(arr1):
+  '''  while i < len(arr1):
         res.append(arr1[i])
         i += 1
     while j < len(arr2):
         res.append(arr2[j])
-        j += 1
+        j += 1'''  # I think these 6 line of code are unnecessary 
     return res
 
 
