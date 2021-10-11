@@ -11,7 +11,7 @@ def find_sum(arr, s):
     while i <= n:
         
         while curr_sum > s and start < i:
-            curr_sum = curr_sum - arr[start]
+            curr_sum = curr_sum - arr[start] '''please change'''
             start += 1
 
         if curr_sum == s:
